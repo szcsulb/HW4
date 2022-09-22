@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ex 1 - Scott Zuvich</title>
+  <link href="../css/HW4.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <form action="#" name="ex1" method="post" id="ex1">
+    <fieldset>
+      <legend>Calculator</legend>
+      <p>Please input two integers and a mathematical operation. Then click <strong>calculate</strong>.</p>
+      <p><label for="int1"><input type="text" name="int1" id="int1" class="int1" /></label></p>
+      <p><label for="int2"><input type="text" name="int2" id="int2" class="int2" /></label></p>
+      <p>Operator:</p>
+      <label for="operator-sum"><input type="radio" value="sum" name="operator" id="operator-sum" class="operator" /> Sum</label><br />
+      <label for="operator-sub"><input type="radio" value="sub" name="operator" id="operator-sub" class="operator" /> Subraction</label><br />
+      <label for="operator-mul"><input type="radio" value="mul" name="operator" id="operator-mul" class="operator" /> Multiplication</label><br />
+      <label for="operator-div"><input type="radio" value="div" name="operator" id="operator-div" class="operator" /> Division</label><br />
+      <p><input type="submit" name="calculate" id="calculate" class="calculate" value="Calculate" /></p>
+      <p id="calculateMsg" class="calculateMsg">&nbsp;</p>
+    </fieldset>
+  </form>
+  <script src="../js/ex1.js"></script>
+</body>
+</html>
